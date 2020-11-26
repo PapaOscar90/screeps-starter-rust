@@ -1,6 +1,8 @@
 default_deploy_mode = "upload"
 
 [upload]
+# Instead of username & password, you can use an auth_token
+# auth_token = "your-token-here"
 username = "your username or email"
 password = "your password"
 branch = "default"
